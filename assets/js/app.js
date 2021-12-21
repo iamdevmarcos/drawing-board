@@ -18,6 +18,7 @@ getAll('.colorArea .color').forEach(item => {
 screen.addEventListener('mousedown', handleMouseDown);
 screen.addEventListener('mousemove', handleMouseMove);
 screen.addEventListener('mouseup', handleMouseUp);
+get('.clear').addEventListener('click', handleClearScreen);
 
 // Functions
 function handleColorClick(e) {
@@ -59,4 +60,9 @@ function draw(x, y) {
 
     mouseX = pointX;
     mouseY = pointY;
+}
+
+function handleClearScreen() {
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
