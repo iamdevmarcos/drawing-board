@@ -21,7 +21,8 @@ h1 {
 }
 
 #screen {
-    border: 2px solid #000;
+    border: 5px solid #000;
+    border-radius:20px;
     background-color: #FFF;
     cursor: crosshair;
 }
@@ -54,13 +55,21 @@ h1 {
     color:#444;
 }
 
-.clear {
+.buttons-area {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.clear, .download {
     border: 1px solid #000;
     background-color: rgba(0, 0, 0, 0.2);
     color: #FFF;
     padding: 10px;
     margin-top: 20px;
     cursor: pointer;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 footer {
