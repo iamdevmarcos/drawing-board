@@ -7,7 +7,7 @@ let canDraw = false;
 let mouseX = 0;
 let mouseY = 0;
 
-const screen = get('#tela');
+const screen = get('#screen');
 const ctx = screen.getContext('2d');
 
 // Events
