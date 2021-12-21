@@ -37,6 +37,13 @@ h1 {
 .color.active {
     border: 5px solid #FFF;
 }
+.rubber {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+    color:#444;
+}
 
 .clear {
     border: 1px solid #000;

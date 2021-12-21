@@ -49,8 +49,13 @@ function draw(x, y) {
     const pointX = x - screen.offsetLeft;
     const pointY = y - screen.offsetTop;
 
+    lineWidth = 5;
+    if(currentColor === 'white') {
+        lineWidth = 15;
+    }
+
     ctx.beginPath();
-    ctx.lineWidth = 5;
+    ctx.lineWidth = lineWidth;
     ctx.lineJoin = "round";
     ctx.moveTo(mouseX, mouseY);
     ctx.lineTo(pointX, pointY);
