@@ -1,2 +1,2 @@
 # drawing-board
-a Drawing Board created with JavaScript
+a drawing board created with JavaScript

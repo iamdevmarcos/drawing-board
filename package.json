@@ -1,0 +1,22 @@
+{
+  "name": "drawing-board",
+  "version": "1.0.0",
+  "description": "a Drawing Board created with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdevmarcos/drawing-board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamdevmarcos/drawing-board/issues"
+  },
+  "homepage": "https://github.com/iamdevmarcos/drawing-board#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.2.8"
+  }
+}
