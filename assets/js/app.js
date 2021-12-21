@@ -19,6 +19,7 @@ screen.addEventListener('mousedown', handleMouseDown);
 screen.addEventListener('mousemove', handleMouseMove);
 screen.addEventListener('mouseup', handleMouseUp);
 get('.clear').addEventListener('click', handleClearScreen);
+get('#downloadButton').addEventListener('click', handleDownloadScreen);
 
 // Functions
 function handleColorClick(e) {
@@ -70,4 +71,10 @@ function draw(x, y) {
 function handleClearScreen() {
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+}
+
+function handleDownloadScreen() {
+    const download = get("#download");
+    const image = get("#screen").toDataURL("image/png").replace("image/png", "image/octet-stream");
+    download.setAttribute("href", image);
 }
