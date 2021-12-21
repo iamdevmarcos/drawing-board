@@ -51,7 +51,7 @@ function draw(x, y) {
 
     lineWidth = 5;
     if(currentColor === 'white') {
-        lineWidth = 15;
+        lineWidth = 25;
     }
 
     ctx.beginPath();
