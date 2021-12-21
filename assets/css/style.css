@@ -36,7 +36,7 @@ h1 {
     flex: 1;
     height: 60px;
     cursor: pointer;
-    transition: all ease 0.5s;
+    transition: all ease 0.2s;
     border-radius:5px;
     margin:0 5px;
 }
